@@ -1,0 +1,23 @@
+.card {
+    position: relative;
+}
+
+.card-img img {
+    height: 300px;
+    width: 300px;
+}
+
+.card-title{
+    position: absolute;
+    background: black;
+    opacity: 0.7;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-style: initial;
+    height: 10%;
+    width: 100%;
+    text-align: center;
+}
+
